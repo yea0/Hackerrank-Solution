@@ -1,0 +1,1 @@
+ print("\(Int64(arr.reduce(0, +) - arr.max()!)) \(Int64(arr.reduce(0, +) - arr.min()!))")

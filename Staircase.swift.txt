@@ -1,0 +1,9 @@
+let spac = " "
+    let hash = "#"
+    
+    for i in 1..<n+1 {
+        let space = String(repeating: spac, count: n-i)
+        let hashy = String(repeating: hash, count: i)
+        print(space,hashy,separator: "")
+        
+    }
