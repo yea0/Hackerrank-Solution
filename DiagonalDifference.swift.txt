@@ -1,0 +1,9 @@
+var x = arr.count
+    var rightdiagonal = 0
+    var leftdiagonal = 0
+    for i in 0..<x {
+        rightdiagonal += arr[i][i]
+        leftdiagonal += arr[i][x-i-1]
+    }
+    let sub = abs(rightdiagonal-leftdiagonal)
+    return sub
