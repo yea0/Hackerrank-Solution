@@ -1,0 +1,14 @@
+var grades = grades
+    
+    for grade in 0..<grades.count {
+        if (grades[grade] >= 38) {
+            if (grades[grade] % 5 == 3) {
+                grades[grade] = grades[grade] + 2
+            }
+            else if (grades[grade] % 5 == 4) {
+                grades[grade] = grades[grade] + 1
+            }
+        }
+    }
+    
+    return grades
